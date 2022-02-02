@@ -1,0 +1,27 @@
+.card_box {
+  margin: 40px 25px;
+}
+
+.card_container {
+  max-width: 300px;
+  min-height: 314px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: solid 1px #000;
+  background-color: #0084ff;
+}
+
+.card_descricao {
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: 500;
+}
+
+.card_descricao h4 {
+  color: #fff;
+  font-size: 23px;
+}
+
+.card_descricao p {
+  margin: 0 10px 10px;
+}

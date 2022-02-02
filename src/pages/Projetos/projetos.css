@@ -1,0 +1,21 @@
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projeto_flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projetos_card {
+  display: flex;
+}
+
+@media (max-width: 815px) {
+  .projeto_flex {
+    justify-content: center;
+  }
+}

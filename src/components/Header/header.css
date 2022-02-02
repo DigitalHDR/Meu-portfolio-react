@@ -1,0 +1,59 @@
+.nav_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9dbd9;
+}
+
+.nav_header h1 {
+  font-size: 30px;
+}
+
+.nav_link {
+  display: flex;
+}
+
+.nav_link li {
+  padding: 5px 10px;
+}
+
+button {
+  display: none;
+}
+
+#hidden {
+  display: flex;
+}
+
+.hix, .aiOutlinesBars {
+  font-size: 25px;
+}
+
+
+@media (max-width: 814px) {
+  button {
+    display: flex;
+  }
+  
+  .nav_link {
+    display: none;
+  }
+
+  #hidden {
+    z-index: 10;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 211px;
+    max-height: 211px;
+    width: 100%;
+    background-color: #ac239a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hidden a {
+    line-height: -1px;
+  }
+}
