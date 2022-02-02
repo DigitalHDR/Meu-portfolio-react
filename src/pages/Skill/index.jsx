@@ -3,5 +3,5 @@ export default function Skill() {
     <div>
       <h2>Skill</h2>
     </div>
-  );
+  )
 }

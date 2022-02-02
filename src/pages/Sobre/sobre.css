@@ -1,0 +1,17 @@
+.sobre_box {
+  padding: 50px 0 50px;
+  min-height: calc(80vh - 101px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.sobre_box p {
+  font-size: calc(13px + 1vw);
+}
+
+.sobre_box span {
+  font-weight: 500;
+}
