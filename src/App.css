@@ -6,6 +6,7 @@
   text-decoration: none;
   outline: none;
 }
+
 html::-webkit-scrollbar {
   width: 10px;
 }
@@ -30,4 +31,8 @@ body {
 
 .container {
   padding: 20px 7%;
+}
+
+h1 {
+  text-align: center;
 }

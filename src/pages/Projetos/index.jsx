@@ -5,7 +5,7 @@ import data from '../../data/data'
 export default function Projetos() {
   return (
     <div className='container'>
-      <h2>Lista de Projetos</h2>
+      <h1>Lista de Projetos</h1>
 
       <div className='projeto_flex'>
       {data.especificacao.map((item, index) => {

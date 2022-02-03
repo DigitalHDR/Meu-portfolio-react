@@ -1,5 +1,5 @@
 import './card.css'
-import Card_Botao from '../CardBotao'
+import CardBotao from '../CardBotao'
 
 export default function index(props) {
   return (
@@ -13,7 +13,7 @@ export default function index(props) {
           <p>{props.desc}</p>
         </div>
       </div>
-      <Card_Botao url={props.url} />
+      <CardBotao url={props.url} />
     </div>
   )
 }

@@ -1,0 +1,156 @@
+/* .sectionSkill {
+  display: block;
+} */
+
+.duasBarra {
+  /* padding: 50px 0 50px; */
+  min-height: calc(80vh - 101px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerSkill {
+  width: 40%;
+}
+
+.containerSkill .boxTxt {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerSkill .boxTxt span {
+  font-size: calc(8px + 1vw);
+}
+
+.containerSkill .containerBarra {
+  height: 15px;
+  width: 100%;
+  background-color: #0084ff18;
+  position: relative;
+  border-radius: 10px;
+}
+
+.barraInterna {
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: all 1s ease 0.1s;
+}
+
+.barraInterna:hover {
+  transform: translateX(20px);
+}
+
+.html {
+  background: linear-gradient(to left, #ff0000, #ff8484);
+  box-shadow: 0 3px 3px -5px #ff0000, 0 2px 5px #F2709C;
+}
+
+.css {
+  background: linear-gradient(to left, #0059ff, #83afff);
+  box-shadow: 0 3px 3px -5px #0059ff, 0 2px 5px #83afff;
+}
+
+.javascript {
+  background: linear-gradient(to left, #ffc400, #fff789);
+  box-shadow: 0 3px 3px -5px #ffc400, 0 2px 5px #fff789;
+}
+
+.sass {
+  background: linear-gradient(to left, #d14c8f, #da89b1);
+  box-shadow: 0 3px 3px -5px #d14c8f, 0 2px 5px #da89b1;
+}
+
+.bootstrap {
+  background: linear-gradient(to left, #213292, #666d97);
+  box-shadow: 0 3px 3px -5px #213292, 0 2px 5px #3a4168;
+}
+
+.react,
+.reactNative {
+  background: linear-gradient(to left, #06a4ff, #76bfe9);
+  box-shadow: 0 3px 3px -5px #06a4ff, 0 2px 5px #76bfe9;
+}
+
+.redux {
+  background: linear-gradient(to left, #d807eb, #e98af1);
+  box-shadow: 0 3px 3px -5px #d807eb, 0 2px 5px #e98af1;
+}
+
+.next {
+  background: linear-gradient(to left, #000000, #5c5959);
+  box-shadow: 0 3px 3px -5px #000000, 0 2px 5px #5c5959;
+}
+
+.typescript {
+  background: linear-gradient(to left, #0784eb, #79b6e7);
+  box-shadow: 0 3px 3px -5px #0784eb, 0 2px 5px #79b6e7;
+}
+
+.webpack {
+  background: linear-gradient(to left, #00b2f8, #a8e4fc);
+  box-shadow: 0 3px 3px -5px #2dc3ff, 0 2px 5px #a8e4fc;
+}
+
+.firebase {
+  background: linear-gradient(to left, #d9dd00, #e3e4b5);
+  box-shadow: 0 3px 3px -5px #d9dd00, 0 2px 5px #e3e4b5;
+}
+
+.git {
+  background: linear-gradient(to left, #eb8107, #dac7b2);
+  box-shadow: 0 3px 3px -5px #eb8107, 0 2px 5px #dac7b2;
+}
+
+.photoshop {
+  background: linear-gradient(to left, #0b07eb, #7674df);
+  box-shadow: 0 3px 3px -5px #0b07eb, 0 2px 5px #7674df;
+}
+
+.illustrator {
+  background: linear-gradient(to left, #c43e01, #ecbc94);
+  box-shadow: 0 3px 3px -5px #eb6e07, 0 2px 5px #ecbc94;
+}
+
+.formik {
+  background: linear-gradient(to left, #025de6, #ffffff);
+  box-shadow: 0 3px 3px -5px #025de6, 0 2px 5px #ffffff;
+}
+
+.reactForm {
+  background: linear-gradient(to left, #f159cb, #f8cced);
+  box-shadow: 0 3px 3px -5px #f159cb, 0 2px 5px #f8cced;
+}
+
+.node {
+  background: linear-gradient(to left, #47a00b, #48ff00);
+  box-shadow: 0 3px 3px -5px #47a00b, 0 2px 5px #48ff00;
+}
+
+.mongodb {
+  background: linear-gradient(to left, #03b421, #85da63);
+  box-shadow: 0 3px 3px -5px #47a00b, 0 2px 5px #48ff00;
+}
+
+.mySQL {
+  background: linear-gradient(to left, #ff9100, #10a6d4);
+  box-shadow: 0 3px 3px -5px #ff9100, 0 2px 5px #10a6d4;
+}
+
+@media (max-width: 814px) {
+  .duasBarra {
+     flex-direction: column;
+  }
+
+  .containerSkill {
+     width: 90%;
+  }
+}

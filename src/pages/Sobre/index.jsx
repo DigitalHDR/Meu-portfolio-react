@@ -3,6 +3,7 @@ import './sobre.css'
 export default function Sobre() {
   return (
     <div className="container">
+    <h1>Sobre</h1>
       <div className='sobre_box'>
         <p >Atualmente estou estudando <span>React-Native</span>,
           creio que terminarei em breve pois muita coisa é parecida com
