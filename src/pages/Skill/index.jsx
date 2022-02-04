@@ -1,4 +1,5 @@
 import './skill.css'
+import dataBarraSkill from '../../data/dataBarraSkill'
 
 import Html from "../../components/BarraSkill/Html";
 // import Css from '../../components/BarraSkill/Css';
@@ -25,12 +26,31 @@ export default function Skill() {
   return (
     <div className='container'>
       <h1>Lista de Skills FullStack</h1>
+      <div className="duasBarra">
 
-        <div className="duasBarra">
+        <div className='containerSkill'>
+          {dataBarraSkill.atributos.map((item, index) => {
+            return (
+              <div key={index}>
+                <Html done={item.done} title={item.title} classSet={item.classSet} />
+              </div>
+            )
+          })}
+        </div>
 
-          <div className='containerSkill'>
-            <Html done={95} />
-            {/* <Css done={95} />
+        <div className="containerSkill">
+          {dataBarraSkill.atributosDois.map((item, index) => {
+            return (
+              <div key={index}>
+                <Html done={item.done} title={item.title} classSet={item.classSet} />
+              </div>
+            )
+          })}
+        </div>
+
+        {/* <div className="containerSkill">
+            <Html done={70} />
+            <Css done={70} />
             <JavaScript done={70} />
             <Sass done={75} />
             <BootStrap done={80} />
@@ -38,11 +58,11 @@ export default function Skill() {
             <Redux done={50} />
             <ReactNative done={70} />
             <ReactForm done={50} />
-            <MongoDb done={20} /> */}
-          </div>
+            <MongoDb done={20} />
+          </div> */}
 
-          <div className="containerSkill">
-            {/* <Next done={50} />
+        {/* <div className="containerSkill">
+            <Next done={50} />
             <TypeScript done={35} />
             <WebPack done={40} />
             <FireBase done={20} />
@@ -51,11 +71,10 @@ export default function Skill() {
             <Illustrator done={30} />
             <Formik done={20} />
             <Node done={30} />
-            <MySQL done={20} /> */}
-          </div>
+            <MySQL done={20} />
+          </div> */}
 
-        </div>
-
+      </div>
     </div>
   )
 }

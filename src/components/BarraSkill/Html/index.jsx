@@ -1,24 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react';
 
-export default function Html({ done }) {
+export default function Index({ done, title, classSet }) {
   const [style, setStyle] = useState({})
 
-  setTimeout(() => {
-    const newStyle = {
-      opacity: 1,
-      width: `${done}%`
-    }
-
-    setStyle(newStyle)
-  }, 200)
+  useEffect(() => {
+    setTimeout(() => {
+      const newStyle = {
+        opacity: 1,
+        width: `${done}%`
+      }
+      setStyle(newStyle)
+    }, 200)
+  }, [done])
 
   return (
     <div>
       <div className="boxTxt">
-        <span>Html</span>
+        <span>{title}</span>
       </div>
       <div className="containerBarra">
-        <div className="barraInterna html" style={style}>{done}%</div>
+        <div className={`barraInterna ${classSet}`} style={style}>{done}%</div>
       </div>
     </div>
   )
