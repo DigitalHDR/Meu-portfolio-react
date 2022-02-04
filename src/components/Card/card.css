@@ -1,9 +1,10 @@
 .card_box {
-  margin: 40px 25px;
+  margin: 40px 25px 0px;
 }
 
 .card_container {
   max-width: 300px;
+  min-height: 360px;
   border-radius: 10px;
   overflow: hidden;
   border: solid 1px #000;
@@ -16,11 +17,15 @@
   transform: scale(1.1);
 }
 
+.CardBotao_position {
+  position: absolute;
+  bottom: 0px;
+}
+
 .card_descricao {
   text-align: center;
-  padding: 10px 10px;
+  padding: 0px 10px;
   font-weight: 500;
-  margin: 10px;
 }
 
 .card_descricao h4 {

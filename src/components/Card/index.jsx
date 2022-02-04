@@ -5,6 +5,7 @@ export default function index(props) {
   return (
     <div className="card_box">
       <div className="card_container">
+
         <div>
           <img src={props.img} alt="capa" />
         </div>
@@ -13,9 +14,13 @@ export default function index(props) {
           <h4>{props.title}</h4>
           <p>{props.desc}</p>
         </div>
-        <CardBotao className='teste' url={props.url} />
+
+        <div className='CardBotao_position'>
+          <CardBotao url={props.url} />
+        </div>
 
       </div>
+
     </div>
   )
 }
