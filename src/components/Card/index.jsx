@@ -8,12 +8,14 @@ export default function index(props) {
         <div>
           <img src={props.img} alt="capa" />
         </div>
+
         <div className='card_descricao'>
           <h4>{props.title}</h4>
           <p>{props.desc}</p>
         </div>
+        <CardBotao className='teste' url={props.url} />
+
       </div>
-      <CardBotao url={props.url} />
     </div>
   )
 }

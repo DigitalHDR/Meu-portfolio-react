@@ -1,8 +1,8 @@
 .card_btn {
-  position: absolute;
+  /* position: absolute; */
   margin: -12px 78px 35px;
   color: #000000;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px 15px;
   transition: all 0.5s ease-in-out;
   background-color: #AE3C85;

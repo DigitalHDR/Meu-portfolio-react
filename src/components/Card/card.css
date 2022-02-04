@@ -4,17 +4,23 @@
 
 .card_container {
   max-width: 300px;
-  min-height: 314px;
   border-radius: 10px;
   overflow: hidden;
   border: solid 1px #000;
   background-color: #0084ff;
+  transform: scale(1);
+  transition: all ease 0.5s;
+}
+
+.card_container:hover {
+  transform: scale(1.1);
 }
 
 .card_descricao {
   text-align: center;
   padding: 10px 10px;
   font-weight: 500;
+  margin: 10px;
 }
 
 .card_descricao h4 {
