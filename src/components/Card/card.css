@@ -1,5 +1,5 @@
 .card_box {
-  margin: 40px 25px 0px;
+  margin: 0px 25px 25px;
 }
 
 .card_container {
@@ -7,8 +7,8 @@
   min-height: 360px;
   border-radius: 10px;
   overflow: hidden;
-  border: solid 1px #000;
-  background-color: #0084ff;
+  border: solid 1px var(--bg-cardBotao);
+  background-color: var(--bg-card);
   transform: scale(1);
   transition: all ease 0.5s;
 }
@@ -24,13 +24,15 @@
 
 .card_descricao {
   text-align: center;
+  font-size: 18px;
   padding: 0px 10px;
   font-weight: 500;
+  color: var(--card-text-color);
 }
 
 .card_descricao h4 {
-  color: #fff;
-  font-size: 23px;
+  color: var(--card-title);
+  font-size: 25px;
 }
 
 .card_descricao p {

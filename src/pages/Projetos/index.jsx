@@ -6,7 +6,7 @@ export default function Projetos() {
   return (
     <div className='container'>
       <h1>Lista de Projetos</h1>
-
+      <br />
       <div className='projeto_flex'>
         {data.especificacao.map((item, index) => {
           return (

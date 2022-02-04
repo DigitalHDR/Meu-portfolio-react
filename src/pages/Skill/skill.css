@@ -1,10 +1,5 @@
-/* .sectionSkill {
-  display: block;
-} */
-
 .duasBarra {
-  /* padding: 50px 0 50px; */
-  min-height: calc(80vh - 101px);
+  /* min-height: calc(60vh - 101px); */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,6 +7,9 @@
 
 .containerSkill {
   width: 40%;
+  padding: 0px 20px 20px;
+  border-radius: 10px;
+  background-color: var(--bg-card);
 }
 
 .containerSkill .boxTxt {
@@ -152,5 +150,8 @@
 
   .containerSkill {
      width: 90%;
+     margin-top: 10px;
   }
+
+
 }

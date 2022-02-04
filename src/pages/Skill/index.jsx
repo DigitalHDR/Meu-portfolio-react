@@ -7,6 +7,7 @@ export default function Skill() {
   return (
     <div className='container'>
       <h1>Lista de Skills FullStack</h1>
+      <br />
       <div className="duasBarra">
 
         <div className='containerSkill'>

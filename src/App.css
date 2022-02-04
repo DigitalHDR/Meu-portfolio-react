@@ -7,6 +7,24 @@
   outline: none;
 }
 
+:root {
+  --bg-header: #212121;
+  --header-logo: #ffffff;
+
+  --h1-geral: #FFFFFF;
+
+  --bg-geral: #7B1FA2;
+
+  --bg-card: #FFFFFF;
+  --card-title: #695353;
+  --card-text-color: #757575;
+
+  --bg-cardBotao: #536DFE;
+  --bg-cardBotaoHover: #AE3C85;
+  --card-color: #FFFFFF;
+  
+}
+
 html::-webkit-scrollbar {
   width: 10px;
 }
@@ -27,6 +45,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-geral);
 }
 
 .container {
@@ -35,4 +54,5 @@ body {
 
 h1 {
   text-align: center;
+  color: var(--h1-geral);
 }

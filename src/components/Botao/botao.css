@@ -1,9 +1,9 @@
 .btn {
-  color: #000000;
+  color: var(--card-color);
   font-size: clamp(16px, 16px + 1vw, 25px);
   padding: 5px 15px;
   transition: all 0.5s ease-in-out;
-  background-color: #0084ff;
+  background-color: var(--bg-cardBotao);
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
 }
