@@ -8,19 +8,19 @@ export default function Projetos() {
       <h1>Lista de Projetos</h1>
 
       <div className='projeto_flex'>
-      {data.especificacao.map((item, index) => {
-        return (
-          <div key={index}>
-            <div className='projetos_card'>
-              <Card
-                img={item.img}
-                title={item.title}
-                desc={item.desc}
-                url={item.url} />
+        {data.especificacao.map((item, index) => {
+          return (
+            <div key={index}>
+              <div className='projetos_card'>
+                <Card
+                  img={item.img}
+                  title={item.title}
+                  desc={item.desc}
+                  url={item.url} />
+              </div>
             </div>
-          </div>
-        )
-      })}
+          )
+        })}
       </div>
 
     </div>

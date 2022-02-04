@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 
 import { Link } from "react-router-dom";
-
 import './header.css'
-
 import Button from '../Botao'
 
 import { AiOutlineBars } from "react-icons/ai";
