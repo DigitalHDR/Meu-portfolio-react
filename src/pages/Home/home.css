@@ -1,0 +1,41 @@
+.box {
+  padding: 0 7%;
+}
+
+.home_flex {
+  padding: 50px 0 50px;
+  display: flex;
+  min-height: calc(80vh - 101px);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxTexto p {
+  font-size: calc(24px + 2vw);
+}
+
+.boxTexto .corNone {
+  color: blue;
+}
+
+.boxFoto {
+  margin-left: 90px;
+  max-width: 500px;
+}
+
+.boxFoto img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media (max-width: 896px) {
+  .home_flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .boxFoto {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}
