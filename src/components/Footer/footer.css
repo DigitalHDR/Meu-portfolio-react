@@ -7,3 +7,96 @@
   border-top-color: var(--bg-card);
   margin-top: 13px;
 }
+
+.footer {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #0084ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerBaixo {
+  padding: 0 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerBaixo .nome {
+  padding: 5px 13px;
+  color: #ffffff;
+  background-color: var(--bg-cardBotao);
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-size: calc(10px + 1vw);
+  font-weight: 500;
+}
+
+.footerBaixo div p {
+  color: var(--h1-geral);
+  font-size: calc(10px + 1vw);
+  font-weight: 500;
+}
+
+.footerBaixo div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerBaixo div ul li {
+  margin: 0 20px;
+}
+
+#BsGithub,
+#BsLinkedin {
+  cursor: pointer;
+  font-size: calc(20px + 1vw);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+#BsGithub:hover,
+#BsLinkedin:hover {
+  color: #AE3C85;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 814px) {
+  .footerBaixo .nome {
+    font-size: calc(15px + 1vw);
+  }
+
+  .footerBaixo div p {
+    font-size: calc(15px + 1vw);
+  }
+
+  #BsGithub,
+  #BsLinkedin {
+    font-size: calc(25px + 1vw);
+
+  }
+}
+
+@media (max-width: 581px) {
+  .footerBaixo {
+    flex-direction: column;
+  }
+
+  .footerBaixo div {
+    margin: 10px 0px;
+  }
+
+  .footerBaixo div p,
+  .footerBaixo .nome {
+    font-size: 20px;
+  }
+
+  #BsGithub,
+  #BsLinkedin {
+    font-size: 30px;
+  }
+}
