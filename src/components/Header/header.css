@@ -10,7 +10,7 @@
   border-bottom-color: var(--bg-card);
 }
 
-.nav_header h1 {
+.nav_header a {
   color: var(--header-logo);
   font-size: 30px;
 }

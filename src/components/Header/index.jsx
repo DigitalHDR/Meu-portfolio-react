@@ -13,9 +13,9 @@ export default function Index() {
   return (
     <nav>
       <div className='container nav_header'>
-        <h1>Lucas</h1>
+        <h1><a href='#home_link'>Lucas</a></h1>
         <ul className="nav_link" id={showLinks ? 'hidden' : ''}>
-          <li ><a href='#home_link' to="/"><Button title="Home" /></a></li>
+          <li ><a href='#home_link' to="/"><Button title="Perfil" /></a></li>
           <li><a href='#sobre_link' to="/sobre"><Button title="Sobre" /></a></li>
           <li><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
           <li><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
