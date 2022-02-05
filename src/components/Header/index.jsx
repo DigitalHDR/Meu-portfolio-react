@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import { Link } from "react-router-dom";
 import './header.css'
+// import { Link } from "react-router-dom";
 import Button from '../Botao'
 
 import { AiOutlineBars } from "react-icons/ai";
@@ -15,10 +15,10 @@ export default function Index() {
       <div className='container nav_header'>
         <h1>Lucas</h1>
         <ul className="nav_link" id={showLinks ? 'hidden' : ''}>
-          <li><Link to="/"><Button title="Home" /></Link></li>
-          <li><Link to="/sobre"><Button title="Sobre" /></Link></li>
-          <li><Link to="/skill"><Button title="Skill" /></Link></li>
-          <li><Link to="/projetos"><Button title="Projetos" /></Link></li>
+          <li ><a href='#home_link' to="/"><Button title="Home" /></a></li>
+          <li><a href='#sobre_link' to="/sobre"><Button title="Sobre" /></a></li>
+          <li><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
+          <li><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
         <button onClick={() => setShowLinks(!showLinks)}>
           {showLinks ? 

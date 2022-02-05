@@ -5,7 +5,7 @@ import BarraSkill from "../../components/BarraSkill"
 
 export default function Skill() {
   return (
-    <div className='container'>
+    <div className='container top' id='skill_link'>  {/* id apenas para página única /> */}
       <h1>Lista de Skills FullStack</h1>
       <br />
       <div className="duasBarra">

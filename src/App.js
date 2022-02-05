@@ -1,8 +1,12 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import './App.css'
 
-import MainRoutes from "./routes"
+// import MainRoutes from "./routes"
 import Header from './components/Header'
+import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+import Skill from "./pages/Skill";
+import Projetos from "./pages/Projetos";
 import Footer from './components/Footer'
 
 export default function App() {
@@ -10,7 +14,11 @@ export default function App() {
     <Router>
       <Header />
       <div className='main_Element'>
-        <MainRoutes />
+        {/* <MainRoutes /> */}
+        <Home />
+        <Sobre />
+        <Skill />
+        <Projetos />
       </div>
       <Footer />
     </Router>

@@ -1,6 +1,6 @@
 .sobre_box {
   padding: 50px 10px 50px;
-  min-height: calc(80vh - 101px);
+  min-height: calc(80vh - 200px);
   display: flex;
   align-items: center;
   justify-content: center;

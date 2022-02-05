@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-  padding: 20px 7%;
+  padding: 32px 7%;
 }
 
 h1 {
@@ -57,12 +57,20 @@ h1 {
   color: var(--h1-geral);
 }
 
-.main_Element {
-  min-height: calc(100vh - 184px);
+.top {
+  padding-top: 140px;
 }
 
-@media (max-width: 814px) {
+/* ======================= apenas para varias paginas */
+
+/* .main_Element {
+  min-height: calc(100vh - 184px);
+} */
+
+/* @media (max-width: 814px) {
   .main_Element {
     min-height: calc(100vh - 171px);
   }
-}
+} */
+
+/* ======================= apenas para varias paginas */

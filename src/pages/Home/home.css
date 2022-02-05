@@ -1,5 +1,7 @@
 .box {
   padding: 0 7%;
+  
+  /* min-height: 81vh; */
 }
 
 .home_flex {

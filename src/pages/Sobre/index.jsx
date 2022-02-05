@@ -2,7 +2,7 @@ import './sobre.css'
 
 export default function Sobre() {
   return (
-    <div className="container">
+    <div className="container top" id='sobre_link'> {/* id apenas para página única /> */}
     <h1>Sobre</h1>
     <br />
       <div className='sobre_box'>
