@@ -1,5 +1,4 @@
 .card_btn {
-  /* position: absolute; */
   margin: -12px 85px 35px;
   color: var(--card-color);
   font-size: 20px;
@@ -17,4 +16,12 @@
 
 .cardBotao_container {
   padding: 10px 0px;
+}
+
+@media (max-width: 581px) {
+  .card_btn {
+    margin: -12px 77px 35px;
+    font-size: 18px;
+    padding: 5px 13px;
+  }
 }
