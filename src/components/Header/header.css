@@ -40,11 +40,11 @@ button {
   button {
     display: flex;
   }
-
+  
   .nav_link {
     display: none;
   }
-
+  
   #hidden {
     z-index: 10;
     position: absolute;
@@ -60,7 +60,7 @@ button {
     border-bottom-style: solid;
     border-bottom-color: var(--bg-card);
   }
-
+  
   #hidden a {
     line-height: -1px;
   }

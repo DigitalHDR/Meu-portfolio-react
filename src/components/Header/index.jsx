@@ -15,10 +15,10 @@ export default function Index() {
       <div className='container nav_header'>
         <h1><a href='#home_link'>Lucas</a></h1>
         <ul className="nav_link" id={showLinks ? 'hidden' : ''}>
-          <li ><a href='#home_link' to="/"><Button title="Perfil" /></a></li>
-          <li><a href='#sobre_link' to="/sobre"><Button title="Sobre" /></a></li>
-          <li><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
-          <li><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
+          <li onClick={() => setShowLinks(!showLinks)}><a href='#home_link' to="/"><Button title="Perfil" /></a></li>
+          <li onClick={() => setShowLinks(!showLinks)}><a href='#sobre_link' to="/sobre"><Button title="Sobre" /></a></li>
+          <li onClick={() => setShowLinks(!showLinks)}><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
+          <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
         <button onClick={() => setShowLinks(!showLinks)}>
           {showLinks ? 
