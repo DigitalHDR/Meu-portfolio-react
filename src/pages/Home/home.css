@@ -11,11 +11,12 @@
 }
 
 .boxTexto p {
+  color: var(--h1-geral);
   font-size: calc(24px + 2vw);
 }
 
 .boxTexto .corNone {
-  color: blue;
+  color: var(--bg-cardBotao);
 }
 
 .boxFoto {

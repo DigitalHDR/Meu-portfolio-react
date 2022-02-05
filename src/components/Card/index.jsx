@@ -11,7 +11,9 @@ export default function index(props) {
         </div>
 
         <div className='card_descricao'>
+          <hr />
           <h4>{props.title}</h4>
+          <hr />
           <p>{props.desc}</p>
         </div>
 

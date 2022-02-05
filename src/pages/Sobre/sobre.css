@@ -1,11 +1,13 @@
 .sobre_box {
-  padding: 50px 0 50px;
+  padding: 50px 10px 50px;
   min-height: calc(80vh - 101px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  color: var(--h1-geral);
+  border-radius: 10px;
 }
 
 .sobre_box p {

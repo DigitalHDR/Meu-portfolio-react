@@ -13,11 +13,11 @@
 
   --h1-geral: #FFFFFF;
 
-  --bg-geral: #7B1FA2;
+  --bg-geral: #0f0d35;
 
-  --bg-card: #FFFFFF;
+  --bg-card: #ffffff;
   --card-title: #695353;
-  --card-text-color: #757575;
+  --card-text-color: #665f5f;
 
   --bg-cardBotao: #536DFE;
   --bg-cardBotaoHover: #AE3C85;
@@ -31,12 +31,12 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #0084ff;
+  background-color: var(--bg-cardBotao);
 }
 
 html::-webkit-scrollbar-track {
   border-radius: 30px;
-  background-color: #000000;
+  background-color: var(--bg-header);
 }
 
 body {
