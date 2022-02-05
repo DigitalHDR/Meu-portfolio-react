@@ -56,3 +56,13 @@ h1 {
   text-align: center;
   color: var(--h1-geral);
 }
+
+.main_Element {
+  min-height: calc(100vh - 184px);
+}
+
+@media (max-width: 814px) {
+  .main_Element {
+    min-height: calc(100vh - 171px);
+  }
+}

@@ -12,7 +12,7 @@ export default function Index() {
 
   return (
     <nav>
-      <div className="container nav_header">
+      <div className='container nav_header'>
         <h1>Lucas</h1>
         <ul className="nav_link" id={showLinks ? 'hidden' : ''}>
           <li><Link to="/"><Button title="Home" /></Link></li>
