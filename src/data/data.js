@@ -63,6 +63,27 @@ const data = {
       desc: 'Fiz ele de um Tutorial no Youtube Foi usando Html, css e JavaScript',
       url: 'https://stoic-tesla-784f30.netlify.app/'
     },
+    {
+      id: 10,
+      img: 'https://i.postimg.cc/v8pWMS5Q/netflix.png',
+      title: 'Clone NetFlix',
+      desc: 'Tutorial no Youtube Foi usando React.js + API TMDB',
+      url: 'https://agitated-sammet-8a407e.netlify.app/'
+    },
+    {
+      id: 11,
+      img: 'https://i.postimg.cc/XYxGZ2BB/shopcard.png',
+      title: 'Shopping Card Toolkit',
+      desc: 'Tutorial no Youtube Foi usando React.js + Redux Toolkit',
+      url: 'https://focused-volhard-7869df.netlify.app/'
+    },
+    {
+      id: 12,
+      img: 'https://i.postimg.cc/x8STpHbS/player.png',
+      title: 'Player Super Básico',
+      desc: 'Tutorial no Youtube Foi usando Html, css e JavaScript',
+      url: 'https://trusting-dijkstra-0c963a.netlify.app'
+    },
   ]
 }
 
