@@ -23,7 +23,18 @@ export default function Index() {
           <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
 
-        <input onClick={() => toggleDarkMode(darkMode)}  type="checkbox" />
+
+        <div className="nav_link">
+          <span style={{ color: darkMode ? "grey" : " #c96dfd" }}>☽</span>
+          <div className="switch-checkbox">
+            <label className="switch">
+              <input onClick={() => toggleDarkMode(darkMode)} type="checkbox" />
+              <span className="slider round"> </span>
+            </label>
+          </div>
+          <span style={{color: darkMode ? "grey" : "yellow" }}>☀︎</span>
+        </div>
+
 
         <button onClick={() => setShowLinks(!showLinks)}>
           {showLinks ?
