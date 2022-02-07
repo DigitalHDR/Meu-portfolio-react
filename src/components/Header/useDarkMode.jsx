@@ -5,11 +5,11 @@ export default function useDarkMode() {
 
   useEffect(() => {
     if(darkMode) {
-      document.body.classList.remove('dark-mode')
-      localStorage.setItem('theme', 'light')
-    } else {
       document.body.classList.add('dark-mode')
       localStorage.setItem('theme', 'dark')
+    } else {
+      document.body.classList.remove('dark-mode')
+      localStorage.setItem('theme', 'light')
     }
   }, [darkMode])
 

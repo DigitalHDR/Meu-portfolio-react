@@ -36,10 +36,6 @@ body {
   transition: all ease 0.5s;
 }
 
-.apppp {
-  z-index: 1000;
-  position: fixed;
-}
 
 body.dark-mode {
   --bg-header: #ffffff;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useDarkMode from "./useDarkMode";
 
 import './header.css'
 // import { Link } from "react-router-dom";
@@ -9,6 +10,7 @@ import { HiX } from "react-icons/hi";
 
 export default function Index() {
   const [showLinks, setShowLinks] = useState(false)
+  const [darkMode, toggleDarkMode] = useDarkMode()
 
   return (
     <nav>
@@ -20,6 +22,9 @@ export default function Index() {
           <li onClick={() => setShowLinks(!showLinks)}><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
           <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
+
+        <input onClick={() => toggleDarkMode(darkMode)}  type="checkbox" />
+
         <button onClick={() => setShowLinks(!showLinks)}>
           {showLinks ?
             <HiX className='hix' /> :
