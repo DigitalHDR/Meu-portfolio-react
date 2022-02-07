@@ -55,7 +55,7 @@
 #BsLinkedin {
   cursor: pointer;
   font-size: calc(20px + 1vw);
-  color: #fff;
+  color: var(--Bs-Git-e-Link);
   transition: all 0.3s ease-in-out;
 }
 
