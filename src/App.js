@@ -12,15 +12,15 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <Router>
-      <Header />
-      <div className='main_Element'>
-        {/* <MainRoutes /> */}
-        <Home />
-        <Sobre />
-        <Skill />
-        <Projetos />
-      </div>
-      <Footer />
+        <Header />
+        <div className='main_Element'>
+          {/* <MainRoutes /> */}
+          <Home />
+          <Sobre />
+          <Skill />
+          <Projetos />
+        </div>
+        <Footer />
     </Router>
   )
 }

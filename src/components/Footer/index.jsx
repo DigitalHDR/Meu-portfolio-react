@@ -13,7 +13,7 @@ export default function index() {
 
           <div><p className='nome'>Lucas</p></div>
 
-          <div><p>© Copyright 2021</p></div>
+          <div><p>© Copyright 2022</p></div>
 
           <div>
             <ul>

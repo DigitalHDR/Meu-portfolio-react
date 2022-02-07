@@ -21,7 +21,7 @@ export default function Index() {
           <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
         <button onClick={() => setShowLinks(!showLinks)}>
-          {showLinks ? 
+          {showLinks ?
             <HiX className='hix' /> :
             <AiOutlineBars className='aiOutlinesBars' />}
         </button>
