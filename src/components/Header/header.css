@@ -129,8 +129,7 @@ input:checked+.slider:before {
     z-index: 10;
     position: absolute;
     left: 0px;
-    top: 107px;
-    height: 211px;
+    top: 102px;
     max-height: 211px;
     width: 100%;
     background-color: var(--bg-header);
