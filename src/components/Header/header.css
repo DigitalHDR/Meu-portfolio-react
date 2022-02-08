@@ -45,7 +45,7 @@ button {
 
 /* ========== */
 .darkMode_container {
-  padding: 0px 15px;
+  padding: 0px 17px 0 15px;
   border-radius: 40px;
   background-color: transparent;
   -webkit-box-shadow: 5px 5px 37px 6px var(--darkMode-container);
@@ -150,8 +150,12 @@ input:checked+.slider:before {
   }
 
   .nav_darkMode span {
-    font-size: 30px;
+    font-size: 25px;
   }
+
+  .switch-checkbox {
+    margin: 9px 5px;
+}
   
   .switch {
     width: 46px;
