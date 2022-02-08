@@ -17,10 +17,13 @@
 
 .nav_link {
   display: flex;
-  align-items: center;
 }
 
-.nav_link span {
+.nav_darkMode {
+  display: flex;
+}
+
+.nav_darkMode span {
   font-size: 40px;
 }
 
@@ -51,20 +54,7 @@ button {
 }
 
 .switch-checkbox {
-  padding: 10px;
-}
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 14px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+  margin: 13px 5px;
 }
 
 .switch {
@@ -154,4 +144,34 @@ input:checked+.slider:before {
   #hidden a {
     line-height: -1px;
   }
+
+  .nav_darkMode {
+    position: relative;
+  }
+
+  .nav_darkMode span {
+    font-size: 30px;
+  }
+  
+  .switch {
+    width: 46px;
+    height: 18px;
+  }
+
+  .slider {
+    left: 5px;
+  }
+
+  .slider {
+    top: 5;
+    bottom: -3;
+  }
+  
+  .slider:before {
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    bottom: 1px;
+  }
+
 }
