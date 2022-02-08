@@ -60,11 +60,6 @@ body {
 
 
 body.dark-mode {
-  /* header start */
-  --bg-header: #ffffff;
-  --header-logo: #000000;
-  /* header end */
-
   /* h1 e tilulos da pagina start */
   --h1-geral: #000000;
   /* h1 e tilulos da pagina end */
