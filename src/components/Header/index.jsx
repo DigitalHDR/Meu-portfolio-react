@@ -25,10 +25,8 @@ export default function Index() {
 
 
         <div className="nav_darkMode darkMode_container">
-          <span style={{
-            color: darkMode ? "yellow" : "yellow",
-            fontSize: 20,
-            marginTop: 7 }}>☀︎</span>
+          <span className='sol' style={{
+            color: darkMode ? "yellow" : "yellow"}}>☀︎</span>
           <div className="switch-checkbox">
             <label className="switch">
               <input onClick={() => toggleDarkMode(darkMode)} type="checkbox" />

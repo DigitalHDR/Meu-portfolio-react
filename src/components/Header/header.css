@@ -152,6 +152,11 @@ input:checked+.slider:before {
     font-size: 25px;
   }
 
+  .sol {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
   .switch-checkbox {
     margin: 9px 5px;
 }
