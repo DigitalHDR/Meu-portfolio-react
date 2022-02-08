@@ -28,7 +28,7 @@
 .footerBaixo .nome {
   padding: 5px 13px;
   color: #ffffff;
-  background-color: var(--bg-cardBotaoHover);
+  background-color: var(--bg-cardBotao);
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   font-size: calc(10px + 1vw);
