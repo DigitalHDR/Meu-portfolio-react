@@ -50,7 +50,7 @@ button {
   background-color: transparent;
   -webkit-box-shadow: 5px 5px 37px 6px var(--darkMode-container);
   box-shadow: 5px 5px 37px 6px var(--darkMode-container),
-      inset 0px 0px 65px -20px rgb(0, 0, 0)
+      inset 0px 0px 65px -20px var(--darkMode-inset);
 }
 
 .switch-checkbox {
@@ -129,7 +129,7 @@ input:checked+.slider:before {
     z-index: 10;
     position: absolute;
     left: 0px;
-    top: 80px;
+    top: 114px;
     height: 211px;
     max-height: 211px;
     width: 100%;

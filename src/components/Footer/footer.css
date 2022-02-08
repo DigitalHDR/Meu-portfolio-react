@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--bg-header);
+  background-color: var(--footer-bg);
   border-top-style: solid;
   border-top-color: var(--bg-card);
   margin-top: 13px;
@@ -28,7 +28,7 @@
 .footerBaixo .nome {
   padding: 5px 13px;
   color: #ffffff;
-  background-color: var(--bg-cardBotao);
+  background-color: var(--bg-cardBotaoHover);
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   font-size: calc(10px + 1vw);
@@ -36,7 +36,7 @@
 }
 
 .footerBaixo div p {
-  color: var(--h1-geral);
+  color: var(--footer-p);
   font-size: calc(10px + 1vw);
   font-weight: 500;
 }
