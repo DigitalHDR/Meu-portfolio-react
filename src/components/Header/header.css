@@ -129,7 +129,7 @@ input:checked+.slider:before {
     z-index: 10;
     position: absolute;
     left: 0px;
-    top: 114px;
+    top: 107px;
     height: 211px;
     max-height: 211px;
     width: 100%;
