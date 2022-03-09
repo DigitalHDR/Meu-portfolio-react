@@ -14,7 +14,7 @@ export default function Home() {
             <p>Meu nome é </p>
             <p className='corNone'>Lucas </p>
             <p>Desenvolvedor </p>
-            <p>FullStack </p>
+            <p>Full-Stack Júnior</p>
           </div>
 
           <div className='boxFoto'>

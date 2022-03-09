@@ -48,15 +48,6 @@
   /* footer end */
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-geral);
-  transition: all ease 0.5s;
-}
 
 
 body.dark-mode {
@@ -83,11 +74,22 @@ body.dark-mode {
   --darkMode-inset: rgb(4, 0, 255);
   /* darkMode end */
 
-    /* footer start */
-    /* --footer-bg: #3b3b3b; */
-    --footer-p: #dbcece;
-    /* footer end */
+  /* footer start */
+  /* --footer-bg: #3b3b3b; */
+  --footer-p: #dbcece;
+  /* footer end */
 }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-geral);
+  transition: all ease 0.5s;
+}
+
 
 html::-webkit-scrollbar {
   width: 10px;

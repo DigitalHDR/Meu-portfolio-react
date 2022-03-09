@@ -1,6 +1,6 @@
 .sobre_box {
-  padding: 50px 10px 50px;
-  min-height: calc(80vh - 200px);
+  padding: 50px 30px 50px;
+  min-height: calc(50vh - 200px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,6 +8,7 @@
   flex-direction: column;
   color: var(--h1-geral);
   border-radius: 10px;
+  background-color: rgba(69, 72, 75, 0.205);
 }
 
 .sobre_box p {
@@ -16,4 +17,8 @@
 
 .sobre_box span {
   font-weight: 500;
+}
+
+a {
+  color: var(--bg-cardBotao);
 }

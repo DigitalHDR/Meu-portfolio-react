@@ -143,6 +143,11 @@
   /* box-shadow: 0 3px 3px -5px #ff9100, 0 2px 5px #10a6d4; */
 }
 
+.styled {
+  background: linear-gradient(to left, #FF1493, #810c8b);
+  /* box-shadow: 0 3px 3px -5px #ff9100, 0 2px 5px #10a6d4; */
+}
+
 @media (max-width: 814px) {
   .duasBarra {
      flex-direction: column;

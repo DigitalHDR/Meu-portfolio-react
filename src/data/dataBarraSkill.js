@@ -14,7 +14,7 @@ const dataBarraSkill = {
     },
     {
       id: 3,
-      done: 70,
+      done: 75,
       title: 'JAVASCRIPT',
       classSet: 'javascript'
     },
@@ -26,7 +26,7 @@ const dataBarraSkill = {
     },
     {
       id: 5,
-      done: 80,
+      done: 90,
       title: 'BOOTSTRAP',
       classSet: 'bootstrap'
     },
@@ -38,13 +38,13 @@ const dataBarraSkill = {
     },
     {
       id: 7,
-      done: 50,
+      done: 70,
       title: 'REDUX',
       classSet: 'redux'
     },
     {
       id: 8,
-      done: 70,
+      done: 80,
       title: 'REACTNATIVE',
       classSet: 'reactNative'
     },
@@ -56,15 +56,21 @@ const dataBarraSkill = {
     },
     {
       id: 10,
-      done: 20,
+      done: 40,
       title: 'MONGODB',
       classSet: 'mongodb'
     },
+    {
+      id: 11,
+      done: 70,
+      title: 'STYLED-COMPONENTS',
+      classSet: 'styled'
+    }
   ],
   atributosDois: [
     {
       id: 1,
-      done: 50,
+      done: 75,
       title: 'NEXT.JS',
       classSet: 'next'
     },
@@ -88,7 +94,7 @@ const dataBarraSkill = {
     },
     {
       id: 5,
-      done: 80,
+      done: 85,
       title: 'GIT & GITHUB',
       classSet: 'git'
     },
@@ -112,7 +118,7 @@ const dataBarraSkill = {
     },
     {
       id: 10,
-      done: 30,
+      done: 60,
       title: 'NODE',
       classSet: 'node'
     },
@@ -121,7 +127,7 @@ const dataBarraSkill = {
       done: 20,
       title: 'MYSQL',
       classSet: 'mySQL'
-    },
+    }
   ]
 }
 
