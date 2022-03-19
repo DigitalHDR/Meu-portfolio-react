@@ -1,6 +1,6 @@
 import './botao.css'
 
-export default function index(props) {
+export default function Botao(props) {
   return (
     <div className="btn">
       {props.title}
