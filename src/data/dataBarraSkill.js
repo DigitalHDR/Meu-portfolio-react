@@ -127,6 +127,12 @@ const dataBarraSkill = {
       done: 20,
       title: 'MYSQL',
       classSet: 'mySQL'
+    },
+    {
+      id: 12,
+      done: 90,
+      title: 'FIGMA',
+      classSet: 'figma'
     }
   ]
 }

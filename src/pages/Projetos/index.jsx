@@ -28,8 +28,7 @@ export default function Projetos() {
       <div className='FiltroBox'>
         <h2>Filtro de busca</h2>
         <div className='BoxButton'>
-          {/* <Button title="JavaScript">JavaScript</Button> */}
-          <h1 onClick={() => filterProduto('html-css-javascrip')}>Html Css Javascrip</h1>
+          <h1 onClick={() => filterProduto('html-css-javascrip')}>Html Css Javascript</h1>
           <h1 onClick={() => filterProduto('react')}>React</h1>
           <h1 onClick={() => filterProduto('react-native')}>React-Native</h1>
           <h1 onClick={() => setFilter(data)}>Todos</h1>
