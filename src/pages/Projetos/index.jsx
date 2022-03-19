@@ -5,17 +5,19 @@ import dataGeral from '../../data/data'
 
 export default function Projetos() {
   const [data, setData] = useState([])
-  const [filter, setFilter] = useState(data)
+  const [filter, setFilter] = useState([])
 
-  useEffect(() => {
+  useEffect(() => { //! ########################## 1°
     const getProdutos = () => {
       const response = dataGeral.especificacao
-      setFilter(response)
       setData(response)
+      setFilter(response) //!Aqui tem que ter porque inicia com ele.
     }
     getProdutos()
   }, [])
 
+  //! Aqui setFilter vai receber a variavel somente quando hover o onclick de filterProduto para pesquisar um unico type de acordo com o parametro posto
+  //! antes disso setFilter esta com todos os types vindo de dataGeral.especificacao, onde esta todos os dados da api fake
   const filterProduto = (categoria) => {
     const resultadoFilter = data.filter((resp) => resp.type === categoria)
     return setFilter(resultadoFilter)
