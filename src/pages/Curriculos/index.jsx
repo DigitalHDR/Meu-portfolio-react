@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './curriculo.css'
 import eduzz1 from '../../assets/curriculos/Eduzz-Fullstack-Developer-1.pdf'
 import eduzz2 from '../../assets/curriculos/Eduzz-Fullstack-Developer-2.pdf'
@@ -17,7 +17,7 @@ import Curriculo from '../../assets/curriculos/Curriculo-19-3-2022.pdf'
 
 export default function Curriculos() {
   return (
-    <div className='container top' id='projetos_link'> {/* id apenas para página única /> */}
+    <div className='container top' id='curriculo_link'> {/* id apenas para página única /> */}
       <h1>Certificados e Currículo PDF</h1>
       <br />
       <div className='curriculo_box'>

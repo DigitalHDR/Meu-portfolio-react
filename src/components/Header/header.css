@@ -115,8 +115,7 @@ input:checked+.slider:before {
 
 /* ========== */
 
-
-@media (max-width: 814px) {
+@media (max-width: 956px) {
   button {
     display: flex;
   }
@@ -130,7 +129,7 @@ input:checked+.slider:before {
     position: absolute;
     left: 0px;
     top: 102px;
-    max-height: 211px;
+    max-height: 281px;
     width: 100%;
     background-color: var(--bg-header);
     display: flex;
@@ -159,8 +158,8 @@ input:checked+.slider:before {
 
   .switch-checkbox {
     margin: 9px 5px;
-}
-  
+  }
+
   .switch {
     width: 46px;
     height: 18px;
@@ -174,7 +173,7 @@ input:checked+.slider:before {
     top: 5;
     bottom: -3;
   }
-  
+
   .slider:before {
     height: 16px;
     width: 16px;

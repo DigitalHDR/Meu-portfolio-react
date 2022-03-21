@@ -29,6 +29,7 @@ export default function Index() {
           <li onClick={() => setShowLinks(!showLinks)}><a href='#sobre_link' to="/sobre"><Button title="Sobre" /></a></li>
           <li onClick={() => setShowLinks(!showLinks)}><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
           <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
+          <li onClick={() => setShowLinks(!showLinks)}><a href='#curriculo_link' to="/curriculo"><Button title="Certificados" /></a></li>
         </ul>
 
         <div className="nav_darkMode darkMode_container">

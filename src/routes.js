@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Skill from "./pages/Skill";
 import Projetos from "./pages/Projetos";
+import Curriculo from "./pages/Curriculo";
 
 export default function MainRoutes() {
   return (
@@ -12,6 +13,7 @@ export default function MainRoutes() {
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/skill" element={<Skill />} />
       <Route path="/projetos" element={<Projetos />} />
+      <Route path="/curriculo" element={<Curriculo />} />
     </Routes>
   )
 }

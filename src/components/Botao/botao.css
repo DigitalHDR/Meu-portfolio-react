@@ -13,3 +13,9 @@
   background-color: #AE3C85;
   border-radius: 50%;
 }
+
+@media (max-width: 1026px) {
+  .btn {
+    font-size: clamp(14px, 14px + 1vw, 20px);
+  }
+}
