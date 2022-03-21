@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Skill from "./pages/Skill";
 import Projetos from "./pages/Projetos";
+import Curriculos from "./pages/Curriculos";
 import Footer from './components/Footer'
 
 export default function App() {
@@ -18,7 +19,8 @@ export default function App() {
           <Home />
           <Sobre />
           <Skill />
-          <Projetos />
+        <Projetos />
+        <Curriculos />
         </div>
         <Footer />
     </Router>

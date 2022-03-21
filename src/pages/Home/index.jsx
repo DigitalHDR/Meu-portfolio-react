@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="box">
         <div className='home_flex'>
-        
+
           <div className='boxTexto'>
             <p>Oi </p>
             <p>Meu nome é </p>

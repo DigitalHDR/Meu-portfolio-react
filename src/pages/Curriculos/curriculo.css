@@ -1,0 +1,61 @@
+.curriculo_box {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: var(--h1-geral);
+  border-radius: 10px;
+  overflow-x: hidden;
+  background-color: var(--bg-header);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.curriculo_box::-webkit-scrollbar {
+  height: 10px;
+}
+
+.curriculo_box::-webkit-scrollbar-thumb {
+  width: 30px !important;
+  border-radius: 5px;
+  background-color: var(--bg-cardBotao);
+}
+
+.curriculo_box::-webkit-scrollbar-track {
+  border-radius: 30px;
+  background-color: var(--bg-header);
+}
+
+.curriculo_box ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.curriculo_box ul a button {
+  cursor: pointer;
+  display: flex;
+  width: 100px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #504d4d;
+  transition: all ease-out .5s;
+  border: none;
+}
+
+.curriculo_box ul button:hover {
+  background-color: var(--bg-cardBotao);
+}
+
+.curriculo_box ul a {
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.curriculo_box ul a button {
+  color: #fff;
+}

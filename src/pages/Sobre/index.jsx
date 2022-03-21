@@ -8,17 +8,14 @@ export default function Sobre() {
       <h1>Sobre</h1>
       <br />
       <div className='sobre_box'>
-
         <p>
           Faz 2 anos e 3 meses que estudo para ser um Desenvolvedor, estudo todos os dias, porém ainda não consegui um trabalho na área. Meu ponto forte é Front-end, mas tenho noções de Back-end, quero ser um Full-Stack.
           Tenho varios certificados, maior parte da Udemy onde pode ser visto pelo meu
           <a rel="noreferrer noopener" href={urlLinkedin}> Linkedin</a>, Tenho também 2 bootcamps da Dio Full-Stack
         </p>
-
         <br />
         <p><span>Atualizado</span></p>
         <p><span>09/03/2022</span></p>
-
       </div>
     </div>
   )

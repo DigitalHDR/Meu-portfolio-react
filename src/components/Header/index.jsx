@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import useDarkMode from "./useDarkMode";
 
 import './header.css'
@@ -12,6 +12,14 @@ export default function Index() {
   const [showLinks, setShowLinks] = useState(false)
   const [darkMode, toggleDarkMode] = useDarkMode()
 
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 1) {
+        setShowLinks(false)
+      }
+    })
+  },[])
+
   return (
     <nav>
       <div className='container nav_header'>
@@ -22,7 +30,6 @@ export default function Index() {
           <li onClick={() => setShowLinks(!showLinks)}><a href='#skill_link' to="/skill"><Button title="Skill" /></a></li>
           <li onClick={() => setShowLinks(!showLinks)}><a href='#projetos_link' to="/projetos"><Button title="Projetos" /></a></li>
         </ul>
-
 
         <div className="nav_darkMode darkMode_container">
           <span className='sol' style={{
@@ -35,7 +42,6 @@ export default function Index() {
           </div>
           <span style={{ color: darkMode ? "#c96dfd" : "#c96dfd" }}>☽</span>
         </div>
-
 
         <button onClick={() => setShowLinks(!showLinks)}>
           {showLinks ?
