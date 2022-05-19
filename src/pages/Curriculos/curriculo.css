@@ -1,82 +1,111 @@
-.curriculo_box {
-  height: 140px;
+.container_carrossel {
+  margin-top: 50px;
+}
+
+.carrossel {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  color: var(--h1-geral);
-  border-radius: 10px;
-  overflow-x: hidden;
-  background-color: var(--bg-header);
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scroll-behavior: smooth;
+  padding: 20px 28px 0px;
 }
 
-.curriculo_box::-webkit-scrollbar {
-  height: 10px;
+.carrossel::-webkit-scrollbar {
+  display: none;
 }
 
-.curriculo_box::-webkit-scrollbar-thumb {
-  width: 30px !important;
-  border-radius: 5px;
-  background-color: var(--bg-cardBotao);
-}
-
-.curriculo_box::-webkit-scrollbar-track {
-  border-radius: 30px;
-  background-color: var(--bg-header);
-}
-
-.curriculo_box ul {
-  display: flex;
-  margin-left: auto;
-}
-
-.curriculo_box ul a button {
-  cursor: pointer;
-  display: flex;
-  width: 100px;
-  height: 70px;
-  justify-content: center;
-  align-items: center;
+/* .carrossel_item {
+  width: 170px;
+  margin: 10px;
+  overflow: hidden;
+  flex: none;
   border-radius: 10px;
-  background-color: #504d4d;
-  transition: all ease-out .5s;
-  border: none;
-}
+  border: 1px solid rgb(0, 0, 0);
+  transition: all ease-in-out 0.3s;
+} */
 
-.curriculo_box ul button:hover {
-  background-color: var(--bg-cardBotao);
-}
+/* .carrossel_item:hover {
+  transform: scale(1.05);
+} */
 
-.curriculo_box ul a {
+/* .carrossel_image {
+  width: 170px;
+  height: 115px;
+} */
+
+/* .carrossel_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: white;
+} */
+
+/* .carrossel_info {
+  height: 150px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgoldenrod;
+} */
+
+/* .carrossel_titulo {
+  flex-grow: 1;
   font-weight: 500;
-  margin: 0 10px;
+  color: darkmagenta;
+} */
+
+/* .carrossel_info .carrossel_preco {
+  margin-bottom: 10px;
+  text-align: center;
+  color: greenyellow;
+} */
+
+.carrossel_btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  top: -205px;
+  z-index: 10;
 }
 
-.curriculo_box ul a button {
-  color: #fff;
+.carrossel_btn button {
+  justify-content: space-between;
+}
+
+.carrossel_seta_left,
+.carrossel_seta_rigth {
+  position: absolute;
+  font-size: 40px;
+  transition: all ease-in-out 0.3s;
+  height: 360px;
+  color: rgba(255, 255, 255, 0.514);
+  background-color: rgba(0, 0, 0, 0.486);
+  opacity: 0;
+}
+
+.carrossel_seta_rigth {
+  right: 0;
+}
+
+.teste:hover .carrossel_seta_left,
+.teste:hover .carrossel_seta_rigth {
+  opacity: 1;
+}
+
+.carrossel_seta_rigth {
+  transform: rotate(180deg);
+}
+
+/* .carrossel_info_start {
+  text-align: center;
+} */
+
+.ativaSetaHover {
+  background-color: darkmagenta;
 }
 
 @media (max-width: 425px) {
-  .curriculo_box {
-    height: 200px;
-  }
-
-  .curriculo_box ul {
-    margin-left: initial;
-    flex-direction: column;
-    overflow: auto;
-  }
-
-  .curriculo_box ul a button {
-    width: 100%;
-    height: 50px;
-  }
-
-  .curriculo_box ul a {
-    margin: 15px 0px;
+  .carrossel_btn {
+    display: none;
   }
 }
