@@ -52,7 +52,8 @@
 }
 
 #BsGithub,
-#BsLinkedin {
+#BsLinkedin,
+#BsWhatsapp {
   cursor: pointer;
   font-size: calc(20px + 1vw);
   color: var(--Bs-Git-e-Link);
@@ -60,7 +61,8 @@
 }
 
 #BsGithub:hover,
-#BsLinkedin:hover {
+#BsLinkedin:hover,
+#BsWhatsapp:hover {
   color: #AE3C85;
   transform: translateY(-5px);
 }
@@ -96,7 +98,8 @@
   }
 
   #BsGithub,
-  #BsLinkedin {
+  #BsLinkedin,
+  #BsWhatsapp {
     font-size: 30px;
   }
 }

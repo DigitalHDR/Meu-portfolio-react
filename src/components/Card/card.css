@@ -17,6 +17,16 @@
   transform: scale(1.03);
 }
 
+.card_container_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_container div img {
+  max-width: 300px;
+}
+
 .CardBotao_position {
   position: absolute;
   bottom: 0px;
@@ -38,6 +48,8 @@
 .card_descricao p {
   margin: 0 10px 10px;
 }
+
+
 
 @media (max-width: 581px) {
   .card_container {

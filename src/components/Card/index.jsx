@@ -1,12 +1,12 @@
 import './card.css'
 import CardBotao from '../CardBotao'
 
-export default function index(props) {
+export default function Card(props) {
   return (
     <div className="card_box">
       <div className="card_container">
 
-        <div>
+        <div className='card_container_img'>
           <img src={props.img} alt="capa" />
         </div>
 

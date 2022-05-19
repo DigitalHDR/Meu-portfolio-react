@@ -152,6 +152,14 @@ const data = {
       desc: 'React, Css, API local',
       url: 'https://reactcarrossel.netlify.app/',
     },
+    {
+      id: 20,
+      type: 'react',
+      img: 'https://i.postimg.cc/RCnmDZ5w/ecomer2.png',
+      title: 'React e-commerce',
+      desc: 'React, API, style-component',
+      url: 'https://magenta-unicorn-44e13b.netlify.app',
+    },
   ],
 };
 
