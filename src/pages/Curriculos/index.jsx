@@ -10,6 +10,7 @@ export default function Curriculos() {
   const handleLeftClick = e => {
     e.preventDefault()
     carrosel.current.scrollLeft -= carrosel.current.offsetWidth
+    
   }
 
   const handleRigthClick = e => {
@@ -26,7 +27,7 @@ export default function Curriculos() {
           <div className="teste">
             <div className="carrossel" ref={carrosel}>
               {dataCurriculo.curiculo.map(item => (
-                <div className="projetos_card">
+                <div className="projetos_card" key={item.id}>
                   <Card img={item.img} title={item.title} url={item.url}></Card>
                 </div>
               ))}

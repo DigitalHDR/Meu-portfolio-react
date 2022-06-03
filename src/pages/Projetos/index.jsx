@@ -28,7 +28,7 @@ export default function Projetos() {
       <h1>Lista de Projetos</h1>
       <br />
       <div className='FiltroBox'>
-        <h2>Filtro de busca</h2>
+        <h2> Use o Filtro de busca</h2>
         <div className='BoxButton'>
           <h1 onClick={() => filterProduto('html-css-javascrip')}>Html Css Javascript</h1>
           <h1 onClick={() => filterProduto('react')}>React</h1>
