@@ -14,7 +14,8 @@
   cursor: pointer;
 }
 
-.FiltroBox h2, .BoxButton h1 {
+.FiltroBox h2,
+.BoxButton h1 {
   text-align: center;
   transition: all 0.5s ease-in-out;
 
@@ -24,9 +25,8 @@
   font-size: clamp(16px, 16px + 1vw, 25px);
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
-
-  color: var(--card-color);
-  background-color: var(--bg-cardBotao);
+  border: 1px solid var(--bg-cardBotao);
+  color: var(--h1-geral);
 }
 
 .BoxButton {

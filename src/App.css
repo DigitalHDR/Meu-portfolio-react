@@ -7,24 +7,25 @@
   outline: none;
 }
 
+/* de noite */
 :root {
   /* header start */
-  --bg-header: #212121;
-  --header-logo: #ffffff;
+  --bg-header: #443434;
+  --header-logo: #eeeaea;
   /* header end */
 
   /* h1 e tilulos da pagina start */
-  --h1-geral: #FFFFFF;
+  --h1-geral: #d8d8d8;
   /* h1 e tilulos da pagina end */
 
   /* background geral start */
-  --bg-geral: #0f0d35;
+  --bg-geral: #4c4b56;
   /* background geral end */
 
   /* botao navBar e card de projetos start */
-  --bg-cardBotao: #536DFE;
-  --bg-cardBotaoHover: #AE3C85;
-  --card-color: #FFFFFF;
+  --bg-cardBotao: #23bb92;
+  --bg-cardBotaoHover: #1da9cc;
+  --card-color: #550b55;
   /* botao navBar e card de projetos end */
 
   /* card projetos start */
@@ -43,16 +44,16 @@
   /* darkMode end */
 
   /* footer start */
-  --footer-bg: #212121;
+  --footer-bg: #333333;
   --footer-p: #d1cfcf;
   /* footer end */
 }
 
 
-
+/* de dia */
 body.dark-mode {
   /* h1 e tilulos da pagina start */
-  --h1-geral: #000000;
+  --h1-geral: #495045;
   /* h1 e tilulos da pagina end */
 
   /* background geral start */
@@ -60,7 +61,7 @@ body.dark-mode {
   /* background geral end */
 
   /* card projetos start */
-  --bg-card: #1c292e;
+  --bg-card: #38393e;
   --card-title: #ece4e4;
   --card-text-color: #cac7c7;
   /* card projetos end */
@@ -75,7 +76,7 @@ body.dark-mode {
   /* darkMode end */
 
   /* footer start */
-  /* --footer-bg: #3b3b3b; */
+  --footer-bg: #3b3b3b;
   --footer-p: #dbcece;
   /* footer end */
 }

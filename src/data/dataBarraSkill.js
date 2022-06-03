@@ -36,12 +36,12 @@ const dataBarraSkill = {
       title: 'REDUX',
       img: 'https://i.postimg.cc/XvZ5P13y/redux.png',
     },
-    // {
-    //   id: 7,
-    //   done: 90,
-    //   title: 'BOOTSTRAP',
-    //   img: 'https://i.postimg.cc/TwzJQMDw/bootstrap.png',
-    // },
+    {
+      id: 7,
+      done: 90,
+      title: 'BOOTSTRAP',
+      img: 'https://i.postimg.cc/TwzJQMDw/bootstrap.png',
+    },
     // {
     //   id: 8,
     //   done: 30,
@@ -90,12 +90,12 @@ const dataBarraSkill = {
     //   title: 'FIREBASE',
     //   img: 'https://i.postimg.cc/fWdKyLG0/firebase.png',
     // },
-    // {
-    //   id: 16,
-    //   done: 50,
-    //   title: 'REACTFORM',
-    //   img: 'https://i.postimg.cc/xTRLNbtq/react-hook-form.png',
-    // },
+    {
+      id: 16,
+      done: 50,
+      title: 'REACTFORM',
+      img: 'https://i.postimg.cc/xTRLNbtq/react-hook-form.png',
+    },
     // {
     //   id: 17,
     //   done: 20,
@@ -108,12 +108,12 @@ const dataBarraSkill = {
       title: 'GIT & GITHUB',
       img: 'https://i.postimg.cc/6QTVX5Vq/git-github.png',
     },
-    // {
-    //   id: 19,
-    //   done: 75,
-    //   title: 'SASS',
-    //   img: 'https://i.postimg.cc/6pbRYxsX/sass.png',
-    // },
+    {
+      id: 19,
+      done: 75,
+      title: 'SASS',
+      img: 'https://i.postimg.cc/6pbRYxsX/sass.png',
+    },
     {
       id: 20,
       done: 70,
