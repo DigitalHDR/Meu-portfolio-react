@@ -5,7 +5,7 @@ import dataBarraSkill from '../../data/dataBarraSkill';
 export default function Skill() {
   return (
     <div className="container top" id="skill_link">
-      <h1>Lista de Skills Full-Stack Júnior</h1>
+      <h1>Lista de Skills Full-Stack</h1>
       <br />
       <div className="box_skill">
         {dataBarraSkill.atributos.map((item, index) => (

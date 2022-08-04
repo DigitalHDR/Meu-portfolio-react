@@ -37,6 +37,30 @@ const dataBarraSkill = {
       img: 'https://i.postimg.cc/XvZ5P13y/redux.png',
     },
     {
+      id: 21,
+      done: 70,
+      title: 'Jest',
+      img: 'https://i.postimg.cc/CL2JKXXf/jest.png',
+    },
+    {
+      id: 23,
+      done: 40,
+      title: 'React Testing Library',
+      img: 'https://i.postimg.cc/KYHhZxB3/Captura-de-tela-2022-08-03-120159.png',
+    },
+    {
+      id: 10,
+      done: 40,
+      title: 'MONGODB',
+      img: 'https://i.postimg.cc/rmrSDnPL/mongodb.png',
+    },
+    {
+      id: 13,
+      done: 60,
+      title: 'NODE',
+      img: 'https://i.postimg.cc/J03Zqy86/node.png',
+    },
+    {
       id: 7,
       done: 90,
       title: 'BOOTSTRAP',
@@ -48,18 +72,7 @@ const dataBarraSkill = {
     //   title: 'ILLUSTRATOR',
     //   img: 'https://i.postimg.cc/YqfzNPqr/illustrator.png',
     // },
-    // {
-    //   id: 9,
-    //   done: 90,
-    //   title: 'FIGMA',
-    //   img: 'https://i.postimg.cc/pThBDXy4/figma.png',
-    // },
-    {
-      id: 10,
-      done: 40,
-      title: 'MONGODB',
-      img: 'https://i.postimg.cc/rmrSDnPL/mongodb.png',
-    },
+    
     // {
     //   id: 11,
     //   done: 20,
@@ -72,18 +85,7 @@ const dataBarraSkill = {
       title: 'NEXT.JS',
       img: 'https://i.postimg.cc/C5pbkG3n/next.png',
     },
-    {
-      id: 13,
-      done: 60,
-      title: 'NODE',
-      img: 'https://i.postimg.cc/J03Zqy86/node.png',
-    },
-    // {
-    //   id: 14,
-    //   done: 60,
-    //   title: 'PHOTOSHOP',
-    //   img: 'https://i.postimg.cc/598B1rzB/photoshop.png',
-    // },
+
     // {
     //   id: 15,
     //   done: 20,
@@ -120,6 +122,18 @@ const dataBarraSkill = {
       title: 'STYLED-COMPONENTS',
       img: 'https://i.postimg.cc/85M6pF7p/styled-componend.png',
     },
+    {
+      id: 22,
+      done: 60,
+      title: 'PHOTOSHOP',
+      img: 'https://i.postimg.cc/598B1rzB/photoshop.png',
+    },
+    {
+      id: 23,
+      done: 90,
+      title: 'FIGMA',
+      img: 'https://i.postimg.cc/pThBDXy4/figma.png',
+    },
     // {
     //   id: 21,
     //   done: 35,
@@ -132,7 +146,8 @@ const dataBarraSkill = {
     //   title: 'WEBPACK',
     //   img: 'https://i.postimg.cc/902qrW9G/webpack.png',
     // },
-  ],
-};
 
-export default dataBarraSkill;
+  ],
+}
+
+export default dataBarraSkill

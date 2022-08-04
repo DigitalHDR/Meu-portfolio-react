@@ -1,17 +1,21 @@
+.centralizaBTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card_btn {
-  margin: -12px 85px 35px;
+  /* margin: -12px 85px 35px; */
   color: var(--card-color);
   font-size: 20px;
   padding: 5px 15px;
   transition: all 0.5s ease-in-out;
   background-color: var(--bg-cardBotao);
-  border-bottom-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-radius: 5px;
 }
 
 .card_btn:hover {
   background-color: var(--bg-cardBotaoHover);
-  border-radius: 50%;
 }
 
 .cardBotao_container {
@@ -20,7 +24,7 @@
 
 @media (max-width: 581px) {
   .card_btn {
-    margin: -12px 77px 35px;
+    /* margin: -12px 77px 35px; */
     font-size: 18px;
     padding: 5px 13px;
   }

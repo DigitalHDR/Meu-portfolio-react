@@ -12,7 +12,7 @@ export default function index() {
       <div className="container nav_footer">
         <div className="footerBaixo">
           <div>
-            <p className="nome">Lucas</p>
+            {<p className="nome">Lucas</p>}
           </div>
 
           <div>
