@@ -38,6 +38,12 @@ const dataBarraSkill = {
     },
     {
       id: 21,
+      done: 35,
+      title: 'TYPESCRIPT',
+      img: 'https://i.postimg.cc/7Lpzr1Yt/typescript.png',
+    },
+    {
+      id: 21,
       done: 70,
       title: 'Jest',
       img: 'https://i.postimg.cc/CL2JKXXf/jest.png',
@@ -134,12 +140,7 @@ const dataBarraSkill = {
       title: 'FIGMA',
       img: 'https://i.postimg.cc/pThBDXy4/figma.png',
     },
-    // {
-    //   id: 21,
-    //   done: 35,
-    //   title: 'TYPESCRIPT',
-    //   img: 'https://i.postimg.cc/7Lpzr1Yt/typescript.png',
-    // },
+
     // {
     //   id: 22,
     //   done: 40,
