@@ -336,6 +336,22 @@ const data = {
       desc: 'Foi usando Html, Css e JavaScript',
       url: 'https://regal-pudding-332f92.netlify.app/',
     },
+    {
+      id: 43,
+      type: 'react',
+      img: 'https://i.postimg.cc/hPbNTvPV/Untitled-1.jpg',
+      title: 'Lista de Tarefas',
+      desc: 'React, TypesScript e Styled-components',
+      url: 'https://resonant-crumble-ae6b1a.netlify.app/',
+    },
+    {
+      id: 44,
+      type: 'react',
+      img: 'https://i.postimg.cc/Wbx5vwP8/sdfsdfasdfds.jpg',
+      title: 'Sistema Financeiro',
+      desc: 'React, TypesScript e Styled-components',
+      url: 'https://candid-nasturtium-aeb073.netlify.app/',
+    },
   ],
 }
 
