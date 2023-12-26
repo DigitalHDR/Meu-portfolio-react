@@ -77,9 +77,10 @@
   position: absolute;
   font-size: 40px;
   transition: all ease-in-out 0.3s;
-  height: 360px;
+  height: 367px;
   color: rgba(255, 255, 255, 0.514);
   background-color: rgba(0, 0, 0, 0.486);
+  top: -188px;
   opacity: 0;
 }
 

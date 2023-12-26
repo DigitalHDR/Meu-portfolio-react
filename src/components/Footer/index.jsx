@@ -16,7 +16,7 @@ export default function index() {
           </div>
 
           <div>
-            <p>© Copyright 2022</p>
+            <p>© Copyright 2024</p>
           </div>
 
           <div>
